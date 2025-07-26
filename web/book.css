@@ -1,0 +1,15 @@
+/* Animate the form on load */
+form {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: formFadeUp 1.2s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+/* Keyframes for the form */
+@keyframes formFadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
