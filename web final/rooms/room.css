@@ -1,0 +1,23 @@
+
+.room-page {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+.room-page{
+  color:var(--gold-dark);
+}
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #9b7b43;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .rating {
+    color: var(--text-muted);
+    margin-bottom: 10px;
+  }

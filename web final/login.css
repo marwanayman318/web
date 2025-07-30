@@ -1,0 +1,191 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login Container */
+.login-container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+  animation: slideInUp 0.8s ease-out;
+}
+
+.login-card {
+  background: rgba(26, 26, 26, 0.9);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 24px;
+  padding: 40px;
+}
+
+.login-card:hover {
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+/* Login Header */
+.login-header {
+  color: var(--gold-light);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.login-subtitle {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+/* Form Base Styles */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 14px 16px;
+  margin: 1rem 0rem 1rem;
+  background: rgba(45, 45, 45, 0.8);
+  border: 2px solid rgba(64, 64, 64, 0.6);
+  border-radius: 12px;
+  color: var(--light);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+  border: none;
+  border-radius: 12px;
+  color: var(--dark);
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+/* Form Links */
+.form-links {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.form-link {
+  color: var(--gold);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+
+
+
+/*.login-container{
+  background-image: url('/img/ChatGPT\ Image\ Jul\ 30,\ 2025,\ 04_52_23\ PM.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--light);
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+.form-input {
+  width: 100%;
+  padding: 14px 16px;
+  background: rgba(45, 45, 45, 0.8);
+  border: 2px solid rgba(64, 64, 64, 0.6);
+  border-radius: 12px;
+  color: var(--light);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+.form-input:focus {
+  border-color: var(--gold);
+  background: rgba(45, 45, 45, 1);
+  box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.1);
+  transform: translateY(-1px);
+}
+
+.form-input:focus + .form-label {
+  color: var(--gold);
+}
+
+.message {
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.card {
+  background: rgba(26, 26, 26, 0.8);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  position: relative;
+  box-shadow: 0 10px 30px var(--shadow-dark);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  border-color: var(--gold);
+  box-shadow: 0 20px 50px var(--shadow-dark), 0 0 30px var(--shadow-gold);
+}
+
+.card-content {
+  padding: 2rem;
+}
+
+.card-title {
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.card-description {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+*/
+
+.NewDiv{
+      flex-wrap: wrap;
+      width: 100%;
+    }
