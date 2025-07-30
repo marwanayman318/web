@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Trapped Egypt</title>
+    <link rel="stylesheet" href="/root.css">
+    <link rel="stylesheet" href="/footer1.css">
+  <style>
+    .NewDiv{
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  </style>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="preload"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+
+      <div class= "NewDiv"><header>
+    <nav class="navbar">
+      <a href="home.html" class="logo">Trapped Egypt</a>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li class="dropdown">
+          <a href="home.html#rooms">Rooms</a>
+        </li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+        <li><a href="login.html">login</a></li>
+      </ul>
+      <a href="book.html" class="book-now">Book Now</a>
+    </nav>
+  </header>
+
+    <!-- Floating hieroglyphs -->
+    <div class="hieroglyph">𓂀</div>
+    <div class="hieroglyph">𓈖</div>
+    <div class="hieroglyph">𓊃</div>
+    <div class="hieroglyph">𓋹</div>
+
+    <div class="login-container" style="align-items: center;">
+      <div class="login-card">
+        <div class="login-header">
+          <h1 class="login-title">Member Login</h1>
+          <p class="login-subtitle">Enter the realm of ancient mysteries</p>
+        </div>
+
+        <div id="message" class="message"></div>
+
+        <form id="loginForm" action="home.html" method="get">
+          <div class="form-group">
+            <label for="username" class="form-label">Username</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              class="form-input"
+              placeholder="Enter your username"
+              required
+            />
+            <div id="username-error" class="error-message" role="alert"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <div class="password-group">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="form-input"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+          </div>
+          <div class="social-login">
+  <p class="social-text">Or login with</p>
+  <div class="social-buttons">
+    <a href="#" class="social-button facebook-login">Login with Facebook</a>
+    <a href="#" class="social-button google-login">Login with Chrome</a>
+  </div>
+</div>
+
+          <button type="submit" class="login-btn" id="loginBtn">
+            Enter the Temple
+          </button>
+          <div class="form-links">
+            <a href="home.html" class="form-link">← Return to Home</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  
+    <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h4>About Us</h4>
+      <p>Experience the thrill of ancient Egypt in our immersive escape rooms. Book your adventure today!</p>
+    </div>
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="/home.html">Home</a></li>
+        <li><a href="/home.html#rooms">Rooms</a></li>
+        <li><a href="/book.html">Book Now</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/about.html">About us</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Contact</h4>
+      <p>Email: <a href="mailto:info@escaperoom.com">info@escaperoom.com</a></p>
+      <p>Phone: +20 100 000 0000</p>
+      <div class="social-icons">
+        <a href="https://facebook.com/yourpage" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/yourpage" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/yourchannel" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Escape Egypt. All Rights Reserved.</p>
+  </div>
+</footer>
+    </div>
+  </body>
+</html>
